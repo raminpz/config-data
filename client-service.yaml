@@ -17,6 +17,14 @@ spring:
       username: root
       password: example
       database: MongoProjectOne
+  jpa:
+    hibernate:
+      ddl-auto: create
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: debug
 constants:
   port: 7999
   status:

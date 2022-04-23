@@ -1,5 +1,5 @@
 server:
-  port: 7999
+  port: 8090
 eureka:
   client:
     fetch-registry: true
