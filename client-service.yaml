@@ -1,5 +1,5 @@
 server:
-  port: ${PORT:0}
+  port: 8002
 eureka:
   client:
     fetch-registry: true
@@ -26,7 +26,7 @@ logging:
       hibernate:
         SQL: debug
 constants:
-  port: 7999
+  port: 8002
   status:
     blocked: Blocked
     active: Active
