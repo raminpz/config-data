@@ -17,8 +17,8 @@ spring:
           uri: lb://microservice-client
           predicates:
             - Path=/api/banking/**
-        - id: passive-service
-          uri: lb://passive-service
+        - id: microservice-pasive
+          uri: lb://microservice-pasive
           predicates:
             - Path=/api/passive/**
         - id: active-service
