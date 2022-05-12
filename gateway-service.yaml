@@ -13,10 +13,10 @@ spring:
         locator:
           enabled: true
       routes: 
-        - id: client-service
-          uri: lb://client-service
+        - id: microservice-client
+          uri: lb://microservice-client
           predicates:
-            - Path=/api/client/**
+            - Path=/api/banking/**
         - id: passive-service
           uri: lb://passive-service
           predicates:
