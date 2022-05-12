@@ -2,8 +2,6 @@ server:
   port: 8090
 eureka:
   client:
-    fetch-registry: true
-    register-with-eureka: true
     service-url:
       default-zone: http://eurekaserver:8761/eureka
 spring:
